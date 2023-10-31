@@ -29,10 +29,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-github:
-  zip_url: http://example.com/download.zip
-  another_url: another value
-  
+theme: jekyll-theme-slate
+# github:
+#   zip_url: http://example.com/download.zip
+#   another_url: another value
+
 # Build settings
 theme: minima
 plugins:
