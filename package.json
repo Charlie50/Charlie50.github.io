@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
@@ -14,6 +16,20 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^1.0.0",
-    "copy-webpack-plugin": "^11.0.0"
-  }
+    "copy-webpack-plugin": "^11.0.0",
+    "gh-pages": "^6.0.0"
+  },
+  "description": "A page template built with astro and tailwindcss using tailus blocks.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charlie50/charlie50.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charlie50/charlie50.github.io/issues"
+  },
+  "homepage": "https://github.com/Charlie50/charlie50.github.io#readme"
 }
